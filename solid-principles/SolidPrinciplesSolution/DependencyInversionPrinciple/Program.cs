@@ -46,7 +46,7 @@ namespace DependencyInversionPrinciple
         {
             foreach(var p in browser.FindAllChildrenOf("john"))
             {
-                //get child here
+                //get relationship here
             }
 
         }
