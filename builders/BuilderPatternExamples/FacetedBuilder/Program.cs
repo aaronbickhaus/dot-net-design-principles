@@ -85,7 +85,8 @@ namespace FacetedBuilder
         {
            var pb = new PersonBuilder();
             var person = pb
-                .Lives.At("123 street")
+                .Lives
+                .At("123 street")
                 .In("Denver")
                 .WithPostCode("123456")
                 .Works
